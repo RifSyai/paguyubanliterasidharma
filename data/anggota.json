@@ -1,0 +1,32 @@
+[
+  {
+    "nama": "Moh. Arif Syaifuddin",
+    "motto": "Jika tidak lebih baik, lebih baik tidak",
+    "foto": "assets/img/arif.jpg"
+  },
+  {
+    "nama": "M Dafa Ramadhani",
+    "motto": "Berpikir adalah bentuk keberanian.",
+    "foto": "assets/img/dafa.jpeg"
+  },
+  {
+    "nama": "Qalqashandy Junda M",
+    "motto": "Diskusi adalah jalan menemukan makna.",
+    "foto": "assets/img/qalqashandy.jpeg"
+  },
+  {
+    "nama": "Habib Maulana Akbar",
+    "motto": "Literasi adalah tanggung jawab moral.",
+    "foto": "assets/img/habib.jpeg"
+  },
+  {
+    "nama": "M Ramadhan Al-maghribi",
+    "motto": "Belajar adalah ibadah yang panjang.",
+    "foto": "assets/img/ramadhan.jpeg"
+  },
+  {
+    "nama": "Ahmad Ramadlani",
+    "motto": "Menulis adalah cara berpikir yang jujur.",
+    "foto": "assets/img/ramadlani.jpeg"
+  }
+]
