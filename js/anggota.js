@@ -1,14 +1,15 @@
 fetch('data/anggota.json')
   .then(res => res.json())
   .then(data => {
-    const container = document.getElementById('anggota-list');
+    const container = document.querySelector('.anggota-grid');
+    container.innerHTML = ''; // clear dulu
 
     data.forEach(a => {
       container.innerHTML += `
         <div class="anggota-card">
-          <img src="${a.foto}" class="foto-anggota" alt="${a.nama}">
-          <div class="nama-anggota">${a.nama}</div>
-          <div class="motto-anggota">"${a.motto}"</div>
+          <img src="${a.foto}" alt="${a.nama}">
+          <h3>${a.nama}</h3>
+          <p>"${a.motto}"</p>
         </div>
       `;
     });

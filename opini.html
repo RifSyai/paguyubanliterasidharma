@@ -2,153 +2,102 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Opini | Paguyuban Literasi Dharma</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="opini-page">
 
-<header class="header">
-  <div class="header-inner">
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand">
+        <img src="logo.png" alt="Logo Paguyuban Literasi Dharma">
+        <div class="brand-text">
+          <h1>Paguyuban Literasi Dharma</h1>
+          <p>Membaca, Menulis, dan Membebaskan Pikiran</p>
+        </div>
+      </div>
 
-    <div class="brand">
-  <img src="assets/img/logo.png" alt="Logo Paguyuban Literasi Dharma" class="logo">
+      <nav class="nav">
+  <a href="index.html">Beranda</a>
+  <a href="anggota.html" class="anggota-link">Anggota</a>
+  <a href="opini.html">Opini</a>
+  <a href="ebook.html">E-Book</a>
+  <a href="tentang.html">Tentang</a>
+</nav>
 
-  <div class="brand-text">
-    <h1>Paguyuban Literasi Dharma</h1>
-    <span>Merawat nalar, menumbuhkan makna</span>
-  </div>
-</div>
-
-
-  <nav class="navbar">
-    <a href="index.html">Beranda</a>
-    <a href="anggota.html">Anggota</a>
-    <a href="opini.html">Opini</a>
-    <a href="ebook.html">E-Book</a>
-    <a href="kontak.html">Kontak</a>
-  </nav>
-
-  </div>
-</header>
-
-
-<main class="container">
-  <h1>Kumpulan Opini</h1>
-  <p class="tagline">Gagasan yang lahir dari diskusi dan perenungan.</p>
-
-  <!-- MULAI DAFTAR OPINI -->
-  <div class="opini-list">
-
-    <!-- OPINI 1 -->
-    <article class="opini-item">
-
-  <!-- JUDUL -->
-  <h2 class="opini-title">
-    <a href="opini-apatisme-pemuda.html">
-      Apatisme Pemuda: Strategi Kekuasaan
-    </a>
-  </h2>
-
-  <!-- PENULIS -->
-  <p class="opini-meta">
-    Oleh <strong>Moh. Arif Syaifuddin</strong>
-  </p>
-
-  <!-- RINGKASAN (AMBIL 2–3 KALIMAT DARI ISIMU) -->
-  <p class="opini-ringkas">
-    Generasi muda hari ini dihadapkan pada kelelahan kolektif,
-    apatisme politik, dan tekanan sistemik yang sengaja
-    dipelihara oleh struktur kekuasaan.
-  </p>
-
-  <!-- LINK -->
-  <a href="opini-apatisme-pemuda.html" class="opini-btn">
-    Baca Selengkapnya →
-  </a>
-
-</article>
-
-
- <article class="opini-item">
-
-  <h2 class="opini-title">
-    <a href="anaximenes.html">
-      Anaximenes
-    </a>
-  </h2>
-
-  <p class="opini-meta">
-    Oleh <strong>Qalqashandy Junda M</strong>
-  </p>
-
-  <p class="opini-ringkas">
-    Anaximenes merupakan tokoh terakhir mazhab Milesian yang
-    menjadikan udara sebagai prinsip dasar kosmos dan kehidupan,
-    serta memberi pengaruh penting bagi filsafat alam awal Yunani.
-  </p>
-
-  <a href="anaximenes.html" class="opini-btn">
-    Baca Selengkapnya →
-  </a>
-
-</article>
-
-<article class="opini-item">
-
-  <h2 class="opini-title">
-    <a href="opini-ilmu-pengetahuan-moral-digital.html">
-      Ilmu Pengetahuan Moral Digital
-    </a>
-  </h2>
-
-  <p class="opini-meta">
-    Oleh <strong>M Dafa Ramadhani</strong>
-  </p>
-
-  <p class="opini-ringkas">
-    Media sosial menjadi ruang hidup baru Gen-Z yang memengaruhi cara berpikir,
-    emosi, dan moral digital dalam kehidupan sehari-hari.
-  </p>
-
-  <a href="opini-ilmu-pengetahuan-moral-digital.html" class="opini-btn">
-    Baca Selengkapnya →
-  </a>
-
-</article>
-
-
-  <!-- SELESAI DAFTAR OPINI -->
-
-</main>
-
-</body>
-</html>
-
-<footer class="footer">
-  <div class="footer-inner">
-    <div>
-      <h3>Paguyuban Literasi Dharma</h3>
-      <p>Ruang bertumbuh melalui diskusi, menulis, dan refleksi.</p>
     </div>
+  </header>
 
-    <div>
-      <h3>Navigasi</h3>
-      <p>
+  <!-- ================= HERO OPINI ================= -->
+  
+
+  <!-- ================= LIST OPINI ================= -->
+  <main class="container">
+    <section class="opini-section">
+      <div class="opini-grid">
+        <!-- OPINI ITEM 1 -->
+        <article class="opini-card">
+          <h2><a href="opini-apatisme-pemuda.html">Apatisme Pemuda: Strategi Kekuasaan</a></h2>
+          <p class="opini-meta">Oleh <strong>Moh. Arif Syaifuddin</strong></p>
+          <p class="opini-ringkas">
+            Generasi muda hari ini dihadapkan pada kelelahan kolektif,
+            apatisme politik, dan tekanan sistemik yang sengaja
+            dipelihara oleh struktur kekuasaan.
+          </p>
+          <a href="opini-apatisme-pemuda.html" class="opini-btn">Baca Selengkapnya →</a>
+        </article>
+
+        <!-- OPINI ITEM 2 -->
+        <article class="opini-card">
+          <h2><a href="anaximenes.html">Anaximenes</a></h2>
+          <p class="opini-meta">Oleh <strong>Qalqashandy Junda M</strong></p>
+          <p class="opini-ringkas">
+            Anaximenes merupakan tokoh terakhir mazhab Milesian yang
+            menjadikan udara sebagai prinsip dasar kosmos dan kehidupan,
+            serta memberi pengaruh penting bagi filsafat alam awal Yunani.
+          </p>
+          <a href="anaximenes.html" class="opini-btn">Baca Selengkapnya →</a>
+        </article>
+
+        <!-- OPINI ITEM 3 -->
+        <article class="opini-card">
+          <h2><a href="opini-ilmu-pengetahuan-moral-digital.html">Ilmu Pengetahuan Moral Digital</a></h2>
+          <p class="opini-meta">Oleh <strong>M Dafa Ramadhani</strong></p>
+          <p class="opini-ringkas">
+            Media sosial menjadi ruang hidup baru Gen-Z yang memengaruhi cara berpikir,
+            emosi, dan moral digital dalam kehidupan sehari-hari.
+          </p>
+          <a href="opini-ilmu-pengetahuan-moral-digital.html" class="opini-btn">Baca Selengkapnya →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <h4>Paguyuban Literasi Dharma</h4>
+        <p>Ruang bertumbuh melalui membaca, diskusi, dan refleksi.</p>
+      </div>
+
+      <div>
+        <h4>Navigasi</h4>
         <a href="index.html">Beranda</a><br>
         <a href="anggota.html">Anggota</a><br>
         <a href="opini.html">Opini</a>
-      </p>
-    </div>
+      </div>
 
-    <div>
-      <h3>Kontak</h3>
-      <p>
-        literasidharma@gmail.com<br>
-        WhatsApp: +62 8xxx xxxx xxx
-      </p>
+      <div>
+        <h4>Kontak</h4>
+        <p>literasidharma@gmail.com<br>WhatsApp: +62 8xxx xxxx xxx</p>
+      </div>
     </div>
-  </div>
+    <small>© 2026 Paguyuban Literasi Dharma</small>
+  </footer>
 
-  <small>© 2026 Paguyuban Literasi Dharma</small>
-</footer>
+</body>
+</html>
